@@ -1,0 +1,176 @@
+:root {
+    /* основний колір тексту */
+    --primary-text-color: rgba(117, 117, 117, 1);;
+  
+    /* колір заголовків */
+    --title-text-color: rgba(33, 33, 33, 1);
+  
+    /* футер колір адреси */
+    --adress-footer-color: rgba(255, 255, 255, 0.6);
+  
+    /* футер колір контактів */
+    --contact-footer-color:#FFFFFF;
+  
+    /* основний фон сторінки */
+    --primary-background-color:#F5F5F5;
+  
+    /* фон хедера */
+    --header-color: rgba(255, 255, 255, 1);
+  
+    /* фон наша команда */
+   --title-ourtame-color: #F5F4FA;
+  
+    /* фон геой */
+  --title-heroe-color:rgba(47, 48, 58, 1);
+  
+    /* колір заголовку герой */
+  --text-heroe-color:rgba(255, 255, 255, 1);
+    /* колір секції футер */
+  
+    --footer-color: rgba(47, 48, 58, 1);
+  
+    /* акцент, підсвітка */
+    --accent-color:rgba(33, 150, 243, 1);
+  
+    /* логотип */
+    --title-web-color:rgba(33, 150, 243, 1);
+    --title-studio-color:rgba(0, 0, 0, 1);
+  
+    /* кнопка */
+    --title-button-color: #FFFFFF;
+    --accen-button-color:rgba(33, 150, 243, 1);
+  }
+  
+ body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+  
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.logo-link {
+    color: var(--title-web-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    }
+    
+.accent-link {
+    color: var(--title-studio-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    }
+    
+.accent-black {
+      color: #FFFFFF;
+      font-family: Raleway, sans-serif;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      text-decoration: none;
+    }
+
+
+    /* navigation */
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+  }
+  
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+  color: var(--accent-color);
+  }
+  
+  .site-nav .link.current {
+    color: var(--accent-color);
+  }
+
+
+  /* Adress */
+.adress-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  }
+  
+  .adress-nav .link:hover,
+  .adress-nav .link:focus {
+  color: var(--accent-color);
+  }
+  
+  .adress-nav .link.current {
+    color: var(--accent-color);
+  }
+
+
+  /* Section */
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    }
+   
+ /* portfolio list */
+.section-text {
+    color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  } 
+
+  /* Button */
+  .button {
+    color: var(--title-button-color);
+    font-family: inherit;
+  }
+  
+    .button-nav .link {
+    color: var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .button-nav .link:hover {
+    color: var(--accent-color);
+  }
+  .button-nav .primary {
+    color: var(--title-button-color);
+    background-color: var(--accen-button-color);
+    } 
+
+     /* Footer */
+
+  .footer {
+    background-color: 
+    #2F303A;
+  }
+  .contact-footer {
+ color: var(--contact-footer-color)
+  }
+
+  .adress-list .link {
+ color: var(--adress-footer-color);
+ text-decoration: none;
+  }
