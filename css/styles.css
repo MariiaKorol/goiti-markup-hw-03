@@ -235,7 +235,9 @@ color: var(--accent-color);
 
   .hero-title {
     margin-top: 0;
-    margin-bottom: 30px;
+   
+    padding-top: 200px;
+    padding-bottom: 30px;
     color:var(--text-heroe-color);
     font-weight: 900;
     font-size: 44px;
@@ -355,6 +357,7 @@ text-align: center;
   .comand-list {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
   }
 
   .page-element {
@@ -367,8 +370,8 @@ text-align: center;
   }
 
   .comand-list .link {
-    margin-top: 0;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     background-color: var(--title-ourtame-color);
     color: var(--title-text-color);
     font-weight: 500;
@@ -377,8 +380,7 @@ text-align: center;
   }
   
   .comand-list p {
-  /* margin-top: 0; */
-  padding-bottom: 30px;
+    padding-bottom: 30px;
   }
 
 
