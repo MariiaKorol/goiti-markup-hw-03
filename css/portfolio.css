@@ -303,7 +303,6 @@
       /* margin: -15px; */
     }
 
-    
    .flex-element {
     width: 370px;
     /* margin: 15px; */
@@ -336,20 +335,30 @@
 
 
   /* portfolio list  for h2 pages*/
- .section-text {
-  padding-top: 20px;
-  padding-bottom: 4px;
+
+  .card-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+ .title-card-heading {
+  margin-bottom: 4px;
+  
   color: var(--title-text-color);
- font-weight: 700;
- font-size: 18px;
- line-height: 2;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
  } 
 
- .flex-element p {
-  padding-bottom: 20px;
+ .card-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.8;
  }
-
-   
+/* font-weight: 400;
+font-size: 16px;
+line-height: 30px; */
 
      /* Footer */
 

@@ -86,6 +86,7 @@ p,
 ul {
 margin-top: 0;
 margin-bottom: 0;
+
 padding: 0;
 }
 
@@ -365,13 +366,17 @@ text-align: center;
     margin-right: 30px;
   }
 
-  .page-element:nth-child(3n) {
+  .page-element:nth-child(4n) {
     margin-right: 0;
   }
 
-  .comand-list .link {
-    padding-top: 30px;
-    padding-bottom: 10px;
+  .card-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .link-card-heading {
+    
     background-color: var(--title-ourtame-color);
     color: var(--title-text-color);
     font-weight: 500;
@@ -379,8 +384,10 @@ text-align: center;
     line-height: 1.18;
   }
   
-  .comand-list p {
-    padding-bottom: 30px;
+  .text-card {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
   }
 
 
