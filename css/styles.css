@@ -383,8 +383,6 @@ text-align: center;
 
   .link-card-heading {
     margin-bottom: 10px;
-
-    background-color: var(--title-ourtame-color);
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
